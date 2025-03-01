@@ -1,0 +1,142 @@
+/* Container with a green background to replicate a field-like appearance */
+.marvin-fighters-container {
+        background-color: #4a752c; /* Adjust to match your exact green shade */
+        min-height: 100vh;
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+        font-family: sans-serif;
+        box-sizing: border-box;
+      }
+      
+      /* Header Section */
+      .mf-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      
+      .mf-close-icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      }
+      
+      /* Center the title horizontally, with close icon on left */
+      .mf-title {
+        flex: 1;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+      }
+      
+      /* Team / Players Info (Flags, Player Count) */
+      .mf-team-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 20px;
+      }
+      
+      .mf-team-flag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .mf-team-flag img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 4px;
+      }
+      
+      .mf-team-flag span {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      
+      .mf-players-count {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      
+      /* Field Layout */
+      .mf-field {
+        background-color: #5b8c34; /* Slightly different green to differentiate field area */
+        border-radius: 16px;
+        padding: 20px;
+      }
+      
+      /* Section Titles (Wicket-Keepers, Batters, etc.) */
+      .mf-section-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 20px 0 10px;
+      }
+      
+      /* Rows of players */
+      .mf-player-row {
+        display: flex;
+        flex-wrap: wrap; /* So if there are many players, they wrap to next line */
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+      
+      /* Individual player card */
+      .mf-player-card {
+        background-color: #6da544; /* Another green shade or keep transparent if you like */
+        border-radius: 12px;
+        padding: 10px;
+        width: 120px;
+        text-align: center;
+        position: relative;
+      }
+      
+      /* Player image container (so we can position badges like C/VC) */
+      .mf-player-image-container {
+        position: relative;
+        margin-bottom: 8px;
+      }
+      
+      .mf-player-image-container img {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+      
+      /* Badge styling for C or VC */
+      .mf-badge {
+        position: absolute;
+        bottom: 0;
+        right: -4px;
+        background-color: #ffcb05; /* A bright color for contrast */
+        color: #000;
+        font-weight: 700;
+        font-size: 10px;
+        padding: 2px 4px;
+        border-radius: 6px;
+      }
+      
+      /* Different classes for Captain / Vice-Captain if you want different colors */
+      .mf-c {
+        background-color: #ffcb05; /* Captain */
+      }
+      .mf-vc {
+        background-color: #00d1ff; /* Vice-captain */
+      }
+      
+      .mf-player-name {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      
+      .mf-player-team {
+        font-size: 12px;
+        font-weight: 500;
+        color: #f0f0f0;
+      }
+      

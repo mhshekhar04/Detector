@@ -1,0 +1,36 @@
+/* FirstPage Styles */
+.container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+      
+      .title {
+        font-size: 2rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #38bdf8, #10b981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+      }
+      
+      .start-btn {
+        margin-top: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #16a34a;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      
+      .start-btn:hover {
+        background-color: #15803d;
+      }
+      

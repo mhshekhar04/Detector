@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the better cricketer?",
+    "options": ["Rohit", "Virat"],
+    "answer": "Virat"
+  },
+  {
+    "id": 2,
+    "question": "Which is your preferred operating system?",
+    "options": ["Windows", "Linux"],
+    "answer": "Linux"
+  },
+  {
+    "id": 3,
+    "question": "Which game do you prefer?",
+    "options": ["Chess", "Ludo"],
+    "answer": "Chess"
+  },
+  {
+    "id": 4,
+    "question": "Who is the better T20 opening batsman?",
+    "options": ["KL Rahul", "Sanju Samson"],
+    "answer": "KL Rahul"
+  },
+  {
+    "id": 5,
+    "question": "Which is the better sport?",
+    "options": ["Cricket", "Badminton"],
+    "answer": "Cricket"
+  },
+  {
+    "id": 6,
+    "question": "What would you like to call money?",
+    "options": ["Bucks", "Rupees"],
+    "answer": "Rupees"
+  },
+  {
+    "id": 7,
+    "question": "Which is the better web series?",
+    "options": ["Breaking Bad", "Squid Game"],
+    "answer": "Breaking Bad"
+  },
+  {
+    "id": 8,
+    "question": "Who is the better batsman?",
+    "options": ["Kedar Jadhav", "Babar Azam" ],
+    "answer": "Kedar Jadhav"
+  },
+  {
+    "id": 9,
+    "question": "Who is the better bowler?",
+    "options": ["Shaheen Shah Afridi", "Shardul Thakur"],
+    "answer": "Shardul Thakur"
+  },
+  {
+    "id": 10,
+    "question": "What is your favorite chocolate?",
+    "options": ["Munch","Dairy Milk"],
+    "answer": "Munch"
+  }
+]
